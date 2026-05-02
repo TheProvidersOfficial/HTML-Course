@@ -1,4 +1,4 @@
-HTML Course Practice
+**HTML Course Practice**
 
 This repository contains my practice code for learning HTML (HyperText Markup Language). It includes structured examples, exercises, and mini projects to build a strong foundation in web development.
 
