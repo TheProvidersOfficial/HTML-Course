@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Form Advanced Practice (Part 3) The Providers</title>
+</head>
+<body>
+
+<h1>HTML Form - Part 3 Practice</h1>
+
+<form action="#" method="post">
+
+<h3>Autofocus & Size</h3>
+
+<label>Name (autofocus):</label><br>
+<input type="text" autofocus><br><br>
+
+<label>Username (size 30):</label><br>
+<input type="text" size="30"><br><br>
+
+<h3>Step Attribute</h3>
+
+<label>Quantity (step 2):</label><br>
+<input type="number" step="2"><br><br>
+
+<h3>Datalist Example</h3>
+
+<label>Choose Browser:</label><br>
+<input list="browsers">
+<datalist id="browsers">
+  <option value="Chrome">
+  <option value="Firefox">
+  <option value="Edge">
+  <option value="Safari">
+</datalist><br><br>
+
+<h3>Textarea</h3>
+
+<label>Message:</label><br>
+<textarea rows="4" cols="40" placeholder="Enter your message"></textarea><br><br>
+
+<h3>Select & Option</h3>
+
+<label>Select Country:</label><br>
+<select>
+  <option value="pk" selected>Pakistan</option>
+  <option value="in">India</option>
+  <option value="us">USA</option>
+  <option value="uk" disabled>UK (Disabled)</option>
+</select><br><br>
+
+<h3>Optgroup Example</h3>
+
+<label>Select Car Brand:</label><br>
+<select>
+  <optgroup label="German Cars">
+    <option value="bmw">BMW</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+  <optgroup label="Japanese Cars">
+    <option value="toyota">Toyota</option>
+    <option value="honda">Honda</option>
+  </optgroup>
+</select><br><br>
+
+<h3>Fieldset & Legend</h3>
+
+<fieldset>
+  <legend>Personal Info</legend>
+
+  <label>Email:</label><br>
+  <input type="email"><br><br>
+
+  <label>Password:</label><br>
+  <input type="password"><br><br>
+
+</fieldset><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
